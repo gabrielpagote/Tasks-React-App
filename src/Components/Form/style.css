@@ -1,0 +1,38 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.form input, textarea, button{
+    outline: none;
+    font-size: 20px;
+    background-color: transparent;
+    padding: .5rem;
+    color: #507469;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    background: rgba(59, 49, 46, 0.6);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.form textarea{
+    outline: none;
+    resize: vertical;
+    max-height: 8rem;
+}
+
+.form button{
+    outline: none;
+    border-radius: 0.5rem;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background:  #507469;
+    color: #ffffff;
+}   
+
+.btn-bg{
+    height: 40px;
+    width: 550px;
+    font-family: rancho;
+    font-size: 20px;
+}

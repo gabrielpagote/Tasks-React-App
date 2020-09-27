@@ -1,4 +1,6 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
+import './style.css'
+
 class Form extends Component {
 
     constructor(){
@@ -30,14 +32,16 @@ class Form extends Component {
 
     render() { 
         return (  
-         <form onSubmit={this.handleSubmit.bind(this)}>
+         <form className="form" onSubmit={this.handleSubmit.bind(this)}>
              <input type="text" placeholder="Autor"
              onChange={this.handleChangeAutor.bind(this)}
              />
-             <textarea placeholder="Phrase"
+             <textarea placeholder="Quote"
              onChange={this.handleChangePhrase.bind(this)}
              />
-            <button>Salvar</button>
+            <button className="btn-bg">
+                Salvar
+            </button>
          </form>
 
          );
