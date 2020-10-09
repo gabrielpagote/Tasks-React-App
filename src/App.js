@@ -2,12 +2,14 @@ import React, { Component } from 'react';
 import './App.css';
 import Task from './Components/Task/Task';
 import Form from './Components/Form/Form';
+import logo from './Images/logo.png';
+
 
 //localhost:3000
 
 class App extends Component{
 
-  constructor(){
+    constructor(){
     super()
     this.state = {
       tasks : [
@@ -18,6 +20,10 @@ class App extends Component{
       "always thinks everything he says." }
     ]
     }
+  }
+
+  logo(logo){
+    return <img src={logo} alt="Logo" />
   }
 
   addTask(task){
@@ -39,6 +45,10 @@ class App extends Component{
           <h1 className="main-title">Phylosophycal Quotes</h1>
           <Form addTask={this.addTask.bind(this)}/>
         </section>
+        <section>
+        <img src={logo} alt="Logo" />
+
+        </section>
         <section className="quotes">
          {this.state.tasks.map((task, index) => (
          <Task 
@@ -57,6 +67,7 @@ class App extends Component{
  
 export default App;
 
+
 /*
 
-  */
+*/

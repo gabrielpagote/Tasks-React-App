@@ -33,14 +33,14 @@ class Form extends Component {
     render() { 
         return (  
          <form className="form" onSubmit={this.handleSubmit.bind(this)}>
-             <input type="text" placeholder="Autor"
+             <input type="text" placeholder="Author"
              onChange={this.handleChangeAutor.bind(this)}
              />
              <textarea placeholder="Quote"
              onChange={this.handleChangePhrase.bind(this)}
              />
             <button className="btn-bg">
-                Salvar
+                Save
             </button>
          </form>
 

@@ -5,6 +5,7 @@ body{
   .container{
     display: grid;
     grid-template-columns: auto 3fr;
+    
   
   }
 
@@ -59,5 +60,11 @@ body{
       grid-template-columns:1fr;
       
     }
-  
-    }  
+ .Logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+  }
+}
+
+
