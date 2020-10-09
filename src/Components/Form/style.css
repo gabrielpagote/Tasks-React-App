@@ -5,6 +5,7 @@
 }
 
 .form input, textarea, button{
+    width: 65%;
     display: list-item;
     outline: none;
     font-size: 20px;
@@ -34,7 +35,7 @@
 
 .btn-bg{
     height: auto;
-    width: auto;
+    width: 67%;
     font-family: rancho;
     font-size: 25px;
 }
