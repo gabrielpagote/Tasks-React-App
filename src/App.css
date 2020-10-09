@@ -12,7 +12,7 @@ body{
   .quotes{
     /*para deixar em fileiras de lado: display: grid; */
     display: row;
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 3fr);
     
   }
   .btn-sm {
